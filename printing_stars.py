@@ -1,10 +1,10 @@
 n = 5
-m = 1
+row = 1
 
-while m <= n:
-        s = 1
-        while s <= m:
+while row <= n:
+        col = 1
+        while col <= row:
             print("*", end = " ")
-            s += 1
+            col += 1
         print()
-        m += 1
+        row += 1
